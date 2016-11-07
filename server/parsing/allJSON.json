@@ -1,0 +1,78 @@
+{
+	"probe" : {
+		"properties" : {
+			"sid" : {"type" : "string"},
+			"hostname" : {"type" : "string"},
+			"ip_address" : {
+				"properties" : {
+					"source" : {"type" : "string"},
+					"destination" : {"type" : "string"}
+				}
+			},
+			"mac_address" : {"type" : "string"},
+			"current_location" : {
+				"properties" : {
+					"switch" : {"type" : "string"},
+					"switchport" : {"type" : "string"},
+					"jack" : {"type" : "string"},
+					"building" : {"type" : "string"},
+					"room" : {"type" : "string"}
+				}
+			},
+			"uptime" : {
+				"timestamp" : {"type" : "date_time_no_millis"},
+				"location" : {
+					"properties" : {
+						"switch" : {"type" : "string"},
+        		"switchport" : {"type" : "string"},
+        		"jack" : {"type" : "string"},
+        		"building" : {"type" : "string"},
+        		"room" : {"type" : "string"}
+					}
+				},
+				"data" : {"type" : "string"}
+			},
+			"iperf" : {
+				"timestamp" : {"type" : "date_time_no_millis"},
+				"location" : {
+					"properties" : {
+						"switch" : {"type" : "string"},
+          	"switchport" : {"type" : "string"},
+          	"jack" : {"type" : "string"},
+          	"building" : {"type" : "string"},
+          	"room" : {"type" : "string"}
+					}
+				},
+				"data" : {"type" : "string"}
+			},
+			"selenium" : {
+				"my_byu" : {
+					"timestamp" : {"type" : "date_time_no_millis"},
+					"location" : {
+						"properties" : {
+							"switch" : {"type" : "string"},
+          		"switchport" : {"type" : "string"},
+          		"jack" : {"type" : "string"},
+          		"building" : {"type" : "string"},
+          		"room" : {"type" : "string"}
+						}
+					},
+					"data" : {"type" : "string"}
+				},
+				"external_sites" : {
+					"timestamp" : {"type" : "date_time_no_millis"},
+					"location" : {
+						"properties" : {
+							"switch" : {"type" : "string"},
+            	"switchport" : {"type" : "string"},
+            	"jack" : {"type" : "string"},
+            	"building" : {"type" : "string"},
+            	"room" : {"type" : "string"}
+						}
+					},
+					"data" : {"type" : "string"}
+				}
+			}
+		}
+	}
+}

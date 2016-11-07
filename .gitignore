@@ -1,0 +1,7 @@
+socket/npm-debug.log
+log/
+results/
+node_modules
+*.key
+.env
+*.cert

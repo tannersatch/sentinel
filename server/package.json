@@ -1,0 +1,18 @@
+{
+  "name": "sentinel_server",
+  "version": "1.0.0",
+  "description": "A way to enhance the availability, performance, and reliablity of a network through network probes that replicate the end user experience.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "pem": "^1.8.3",
+    "socket.io": "^1.5.0"
+  }
+}
